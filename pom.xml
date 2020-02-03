@@ -30,6 +30,22 @@
             <version>1.9.1</version>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Naveen Nexus Repository</name>
+	      <ur1>http://192.168.225.50:8081/nexus/content/repositories/nexus/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Naveen Nexus Repository</name>
+	      <url>http://192.168.225.50:8081/nexus/content/repositories/nexus-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
     <build>
         <pluginManagement>
